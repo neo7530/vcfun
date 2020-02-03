@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1575372110 source:r:\vc-smartcard-gcc\fuse.c
+	<avr/io.h>
+
+1576151053 source:r:\vc-smartcard-gcc\io.c
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<avr/interrupt.h>
+	"io.h"
+
+1576135708 r:\vc-smartcard-gcc\io.h
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<avr/interrupt.h>
+
+1576341354 source:r:\vc-smartcard-gcc\main.c
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"io.h"
+	<string.h>
+	<avr/eeprom.h>
+
+1575372110 source:c:\freebasic\basic workspace\freebasic\crypto\bmp-crypto\syster\funcard-emu-bascom\videocrypt\vc-smartcard-gcc\fuse.c
+	<avr/io.h>
+
+1576151053 source:c:\freebasic\basic workspace\freebasic\crypto\bmp-crypto\syster\funcard-emu-bascom\videocrypt\vc-smartcard-gcc\io.c
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<avr/interrupt.h>
+	"io.h"
+
+1576135708 c:\freebasic\basic workspace\freebasic\crypto\bmp-crypto\syster\funcard-emu-bascom\videocrypt\vc-smartcard-gcc\io.h
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<avr/interrupt.h>
+
+1576184662 source:c:\freebasic\basic workspace\freebasic\crypto\bmp-crypto\syster\funcard-emu-bascom\videocrypt\vc-smartcard-gcc\main.c
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"io.h"
+	<string.h>
+	<avr/eeprom.h>
+
