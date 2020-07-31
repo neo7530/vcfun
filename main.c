@@ -413,9 +413,13 @@ void _command(void){
     case 0x7c:
         _response(_ans_7c,_ib[4]+1);break;
     case 0x74:
-		//_delay_us(100);
-        io_write(0x100 | _reverse_byte(0x74));
-        for(i = 0; i < 32; i++){
+	//_delay_us(100);
+        enable_tx();
+	io_write(0x100 | _reverse_byte(0x74));
+	_delay_ms(1);
+	enable_rx();
+	//_delay_us(200);
+	for(i = 0; i < 32; i++){
             _ib[i] = _reverse_byte(io_read() & 0xff);
         }
         switch(_ib[0]){
